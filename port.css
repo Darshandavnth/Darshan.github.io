@@ -1,0 +1,95 @@
+*{
+    margin: 0 px;
+    padding: 0 px;
+    box-sizing: border-box;
+    font-family:Arial,sans-serif;
+}
+
+
+body{
+    background-color: antiquewhite;
+}
+section .nav{
+    display: flex;
+    justify-content: space-between;
+}
+.cont{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+}
+.cont .info{
+    width:80%;
+    border-right: 20px black;
+    border-left: 20px;
+}
+.cont .welcome{
+    width:30%;
+    margin-top: 10px;
+    margin-left: 100px;
+    border-left:30px black;
+    background-color: orange;
+    ;
+}
+.cont .info p{
+    font-size: 25px;
+}
+.nav a{
+    text-decoration: none;
+    color: black;
+    padding: 50px;
+}
+.nav nav{
+    padding: 30px;
+}
+
+body{
+  font-family: Arial, sans-serif;
+    background-color: #f4f6f9;
+    margin: 0;
+    padding: 40px;
+}
+
+.education {
+    max-width: 800px;
+    margin: auto;
+    background: #ffffff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.education h2 {
+    text-align: center;
+    margin-bottom: 30px;
+    border-bottom: 2px solid #333;
+    display: inline-block;
+    padding-bottom: 5px;
+}
+
+.edu-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 0;
+    border-bottom: 1px solid #ddd;
+}
+
+.edu-item:last-child {
+    border-bottom: none;
+}
+
+.edu-left h3 {
+    margin: 0;
+    font-size: 18px;
+}
+
+.edu-left p {
+    margin: 5px 0 0;
+    color: #555;
+}
+
+.edu-right {
+    font-weight: bold;
+    color: #333;
+}

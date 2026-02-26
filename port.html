@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Darshan portfolio</title>
+    <style>
+        .main{
+            background-color: antiquewhite;
+            width: 100%;
+            height: 100vh;
+            justify-content: center;
+            align-items: center;
+            display: flex;
+        }
+        .formbox{
+            border-radius: 8px;
+            width: 40%;
+            height: 30vh;
+            background-color: white;
+            padding: 40px;
+            padding-top: 50px;
+            padding-bottom: 100px;
+                
+           
+        }
+        form{
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            padding-top: 40px;
+            width: 100%;
+           
+        }
+        input,button{
+            width: 100%;
+            padding: 12px;
+            border: 1px solid black;
+            box-sizing: border-box;
+        }
+        button{
+            background-color: rgb(112, 118, 118);
+            color: white;
+            cursor: pointer;
+            font-weight: bold;
+        }
+        p{
+            font-size: 12px;
+           justify-content: center;
+           display: flex;
+       
+        
+        }
+
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div class="formbox">
+           <form onsubmit="loginpage(event)"> 
+               
+                <input type="email" placeholder="enter your mail id">
+                <input type="password" placeholder="enter your password">
+                <button>login</button>
+                <p>If login not possible contact directly</p>
+           </form>
+        </div>
+    </div>
+    <script src="./port.js"></script>
+    
+</body>
+</html>
